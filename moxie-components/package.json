@@ -1,0 +1,17 @@
+{
+  "name": "@moxieroom/components",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "bili"
+  },
+  "dependencies": {
+    "bili": "^4.2.5",
+    "mobx": "^5.9.0",
+    "mobx-react": "^5.4.3",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "styled-components": "^4.1.3"
+  }
+}

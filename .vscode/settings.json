@@ -1,0 +1,14 @@
+{
+  "files.exclude": {
+    "__error": "Not found",
+    ".vscode": true,
+    ".next": true,
+    "node_modules": true,
+    "app\\.next": true,
+    "api\\node_modules": true,
+    "moxie-components\\node_modules": true,
+    "moxie-stripe\\node_modules": true,
+    "moxie-dashboard\\.next": true,
+    "moxie-services\\node_modules": true
+  }
+}

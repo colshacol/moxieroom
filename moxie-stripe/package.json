@@ -1,0 +1,16 @@
+{
+  "name": "@moxieroom/stripe",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "power": "",
+    "start": "babel-node ./services/createProduct & babel-node ./services/updateProduct & STRIPE_SECRET=sk_test_7Gbb0sQe3ukqNenIlO12eVA1 micro-proxy -r rules.json -p 3100"
+  },
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "micro-proxy": "^1.1.0",
+    "stripe": "^6.23.1"
+  }
+}

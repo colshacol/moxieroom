@@ -1,0 +1,15 @@
+{
+  "name": "moxie-services",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "STRIPE_SECRET=sk_test_7Gbb0sQe3ukqNenIlO12eVA1 babel-node ./index.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "micro-proxy": "^1.1.0",
+    "stripe": "^6.23.1"
+  }
+}

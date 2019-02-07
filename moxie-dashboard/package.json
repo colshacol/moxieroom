@@ -1,0 +1,16 @@
+{
+  "name": "@moxieroom/dashboard",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "next"
+  },
+  "dependencies": {
+    "@babel/preset-flow": "^7.0.0",
+    "@moxieroom/components": "0.0.0",
+    "@moxieroom/connect": "0.0.0",
+    "@moxieroom/stripe": "0.0.0",
+    "isomorphic-unfetch": "^3.0.0"
+  }
+}
